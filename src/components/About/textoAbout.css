@@ -1,0 +1,71 @@
+.contenedor8{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto 10rem auto;
+}
+
+.contenedor8 p{
+    font-weight: 500;
+}
+
+.link1{
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    text-decoration: none;
+    padding: 1rem 0;
+    margin-right: 2rem;
+}
+
+@media(min-width: 578px){
+    .contenedor8{
+        width: 65%;
+        max-width: 1000px;
+    }
+}
+
+.background-image{
+    height: 100vh;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.opacity{
+    background-image: linear-gradient(to top, rgba(34,49,63,.5), rgba(34,49,63,.5) );
+    height: 100vh;
+}
+
+.imagen{
+    padding: 8rem 0;
+}
+
+.image{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.imagen Img{
+    border-radius: 30rem;
+}
+
+.imagen h2{
+    color: white;
+    text-align: center;
+    margin-top: 5rem;
+    font-weight: 500;
+    font-size: 4rem;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.imagen p{
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    line-height: 3rem;
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+
+

@@ -1,0 +1,180 @@
+.contenedor4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor5{
+    width: 47%;
+    position: relative;
+}
+
+.caja{
+    text-align: center;
+    border: 4px solid #707070;
+    border-radius: 2.5rem;
+    padding: 3rem;
+    box-shadow: 6px 10px 0 rgb(0, 0, 0, .7);
+    width: 300px;
+    height: 240px;
+    background-color: white;
+}
+
+.caja1{
+    position: absolute;
+    left: 0%;
+    margin-top: -10rem;
+    /* position: relative; */
+    /* top: 75%; */
+    /* display: inline-block; */
+}
+
+.caja2{
+    position: absolute;
+    right: 0%;
+    margin-top: -10rem;
+    /* position: relative; */
+    /* top: 75%; */
+    /* display: inline-block; */
+}
+
+.caja3{
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    /* right: 32%; */
+    /* position: absolute; */
+    /* top: -22%; */
+    /* display: inline-block; */
+}
+
+.caja h3{
+    font-size: 2.2rem;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.imagen3{
+    width: 70%;
+    margin: -6rem auto ;
+}
+
+.hablemos{
+    text-align: center;
+    margin-bottom: 6rem;
+    margin-top: -5rem;
+}
+
+.hablemos p{
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.hablemos .email{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.caja-boton{
+    display: none;
+}
+
+@media(max-width: 1024px){
+
+
+    .contenedor4{
+        display: block;
+    }
+
+    .contenedor5{
+        width: 100%;
+        position: relative;
+    }
+    
+    .caja1{ 
+        left: 56%;
+        position: relative;
+        margin-top: -16rem;
+        z-index: 1;
+    }
+    
+    .caja2{ 
+        /* top: 67%; */
+        right: 56%; 
+        margin-top: -16rem;
+        z-index: 1;
+    }
+    
+    .caja3{ 
+        left: 26%;
+        margin-bottom: -5rem;
+    }
+    
+    .imagen3 {
+        margin: -10rem auto -4rem auto;
+        width: 100%;
+    }
+}
+
+@media(max-width: 768px){
+
+    .caja-boton{
+        text-align: center;
+        border: 4px solid #707070;
+        border-radius: 2.5rem;
+        padding: 2rem;
+        box-shadow: 10px 6px 0 rgb(0, 0, 0, .7);
+        background-color: white;
+        display: inline-block;
+        z-index: 1;
+        margin-top: -2rem;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .caja-boton .titulo{
+        font-family: 'Poppins', 'sans-serif';
+        font-size: 1.4rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .button{
+        text-decoration: none;
+        background-color: #E1E4E5;
+        color: black;
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: .5rem 1rem;
+        border-radius: 1rem;
+        border: 2px solid black;
+        margin: 1rem;
+    }
+
+    .imagen3 {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .caja1{ 
+        display: none;
+    }
+    
+    .caja2{ 
+        display: none;
+    }
+    
+    .caja3{ 
+        display: none;
+    }
+
+    .contenedor6{
+        margin-bottom: -7rem;
+    }
+}
+
+
+
+
+

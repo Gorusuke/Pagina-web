@@ -1,0 +1,113 @@
+.Banner{
+    width: 100%;
+    position: relative;
+}
+
+.background{
+    max-width: 1500px;
+    margin: 0 auto;
+    opacity: .8;
+}
+
+.contenedor1{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contenedor1 h1{
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+    letter-spacing: 5px;
+    margin-bottom: -2rem;
+    border: 2px dashed white;
+}
+
+.contenedor1 h2{
+    display: none;
+}
+
+.boton1{
+    display: inline-block;
+    padding: .5rem 2rem;
+    border: 2px solid white;
+    border-radius: 6px;
+    color: white;
+    font-size: 1.25rem;
+    background-color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 4rem;
+    transition: all .7s ease;
+}
+
+.boton1:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+@media(min-width: 426px){
+
+    .contenedor1{
+        min-width: 300px;
+        max-width: 500px;
+    }
+
+    .contenedor1 h1{
+        font-size: 5rem;
+        margin-bottom: 1rem;
+    }
+
+    .contenedor1 h2{
+        color: white;
+        font-family: 'Poppins', 'sans-serif';
+        font-size: 2rem;
+        font-weight: 500;
+        display: block;
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .boton1{
+        margin-top: 0;
+    }
+}
+
+@media(min-width: 792px){
+    .contenedor1 h2{
+        font-size: 2.75rem;
+    }
+
+    .contenedor1 h1{
+        font-size: 7.5rem;
+    }
+    
+    .boton1{
+        padding: .8rem 2.5rem;   
+        margin-top: 0;
+    }
+} 
+
+@media(min-width: 992px){
+    .contenedor1{
+        max-width: 900px;
+    }
+
+    .contenedor1 h1{
+        font-size: 10rem;
+    }
+
+    .contenedor1 h2{
+        font-size: 3.2rem;
+    }
+
+    .boton1{
+        padding: 1.1rem 3rem; 
+        font-size: 2rem;
+        margin-top: 0rem;  
+    }    
+} 

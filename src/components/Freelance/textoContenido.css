@@ -1,0 +1,42 @@
+.contenedor7{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.subtitulo1{
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+
+.contenedor7 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.fab{
+    font-size: 5rem;
+}
+
+.contenedor7 ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenedor7 ul li {
+    /* width: 50%; */
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    font-weight: 500;
+}
+
+@media(min-width: 578px){
+    .contenedor7{
+        width: 65%;
+        max-width: 1000px;
+    }
+}

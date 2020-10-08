@@ -1,0 +1,113 @@
+/* .relative{
+    position: relative;
+} */
+
+.container2{
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #707070;
+    box-shadow: 0 5px 0 black;
+    position: relative;
+    margin: -4rem auto 0 auto;
+    width: 60%;
+}
+
+.container2 h3{
+    font-size: 3rem;
+}
+
+.contenedor2 h4{
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.texto{
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    background-color: white;
+    border: 2px dashed #707070;
+    margin: 5rem auto -1rem auto ;
+}
+
+.texto6{
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    background-color: white;
+    border: 2px dashed #707070;
+    margin: 5rem auto -1rem auto ;
+}
+
+.texto5{
+    margin-bottom: 7rem;
+}
+
+@media(min-width: 768px){
+
+    .container2 h3{
+        font-size: 5rem;
+    }
+
+    .container3{
+        width: 90%;
+        margin: 5rem auto 0 auto;
+        background-color: white;
+        border: 2px dashed #707070;
+        box-shadow: -8px 10px 10px rgb(0, 0, 0, 0.7);
+        border-radius: 2rem;
+    }
+
+    .texto{
+        background-color: white;
+        border: none;
+        margin: 0;
+        padding: 2rem;
+    }
+
+    .texto1{
+        width: 100%;
+        border-bottom: 2px dashed #707070;
+        border-radius: 2rem 2rem 0 0;
+    }
+
+    .texto2{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .texto3, .texto4{
+        width: 100%;
+    }
+    
+    .texto3{
+        border-right: 2px dashed #707070;
+        border-radius: 0% 0% 0% 2rem;
+    }
+
+    .border{
+        margin: 0 auto;
+    }
+
+    .border1{
+        width: 50%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .texto5{
+        margin: 5rem auto;
+        background-color: white;
+        border: 2px dashed #707070;
+        box-shadow: -8px 10px 10px rgb(0, 0, 0, 0.7);
+        border-radius: 2rem;
+        width: 50%;
+        padding: 2rem;
+        text-align: center;
+        margin-top: -4rem;
+        position: relative;
+    }
+}
